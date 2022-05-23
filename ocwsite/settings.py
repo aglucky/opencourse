@@ -25,14 +25,23 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-!)=ikem_vp0z11!isr)$xjbr*q6e_%bzdznz9krj$a-$g3avj-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+
+NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
+
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
+
 DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+TAILWIND_APP_NAME = 'main'
 # Application definition
 
 INSTALLED_APPS = [
+    'django_browser_reload',
+    'tailwind',
     'main.apps.MainConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -50,6 +59,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django_browser_reload.middleware.BrowserReloadMiddleware',
 ]
 
 ROOT_URLCONF = 'ocwsite.urls'
@@ -57,7 +67,7 @@ ROOT_URLCONF = 'ocwsite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],
+        'DIRS': [BASE_DIR / 'templates/main'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

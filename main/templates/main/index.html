@@ -1,25 +1,4 @@
-{% load static %}
-
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>OpenCourse Home</title>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="{% static 'main/style.css' %}"
-    />
-  </head>
-
-  {% if latest_course_list %}
-  <ul>
-    {% for course in latest_course_list %}
-    <li>{{ course.url }}</li>
-    {% endfor %}
-  </ul>
-  {% else %}
-  <p>No courses are available.</p>
-  {% endif %}
-</html>
+{% extends 'main/base.html'%}
+{% block content %}
+<p>hi</p>
+{% endblock %}
