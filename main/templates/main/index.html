@@ -1,4 +1,55 @@
 {% extends 'main/base.html'%}
+
+
 {% block content %}
-<p>hi</p>
+<div class="hero min-h-screen" style="background-image: url(https://api.lorem.space/image/fashion?w=1000&h=800);">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-center text-neutral-content">
+    <div class="max-w-md">
+      <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+      <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <button class="btn btn-primary">Get Started</button>
+    </div>
+  </div>
+</div>
+
+
+<div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+  <div class="card-body">
+    <div class="form-control">
+      <label class="label">
+        <span class="label-text">Email</span>
+      </label>
+      <input type="text" placeholder="email" class="input input-bordered" />
+    </div>
+    <div class="form-control">
+      <label class="label">
+        <span class="label-text">Password</span>
+      </label>
+      <input type="text" placeholder="password" class="input input-bordered" />
+      <label class="label">
+        <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+      </label>
+    </div>
+    <div class="form-control mt-6">
+      <button class="btn btn-primary">Login</button>
+    </div>
+  </div>
+</div>
+
+
+
+{% if latest_course_list %}
+  {% for course in latest_course_list %}
+  <div class="card w-96 bg-base-100 shadow-xl">
+    <div class="card-body">
+      <h2 class="card-title">Card title!</h2>
+      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <div class="card-actions justify-end">
+        <a class="btn btn-primary">Buy Now</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+{% endif %}
 {% endblock %}
