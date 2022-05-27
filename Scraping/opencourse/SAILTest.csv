@@ -1,0 +1,54 @@
+link,name,number,profs
+http://www.stanford.edu/class/cs124/,From Languages to Information,CS124,http://web.stanford.edu/~jurafsky/
+http://logic.stanford.edu/classes/cs157/current/,Computational Logic,CS157,http://logic.stanford.edu/people/genesereth/genesereth.html
+http://web.stanford.edu/class/cs205l/,Continuous Mathematical Methods with an Emphasis on Machine Learning,CS205L,http://physbam.stanford.edu/~fedkiw/
+http://www.stanford.edu/class/cs221/,Artificial Intelligence: Principles and Techniques,CS221,"http://cs.stanford.edu/~pliang/,http://dorsa.fyi/,https://profiles.stanford.edu/moses-charikar"
+https://stanford-cs221.github.io/spring2021/,Artificial Intelligence: Principles & Techniques,CS221,","
+http://www.stanford.edu/class/cs223a/,Introduction to Robotics,CS223A,http://cs.stanford.edu/groups/manips/
+http://www.stanford.edu/class/cs224n/,Natural Language Processing with Deep Learning,CS224N,http://nlp.stanford.edu/
+http://www.stanford.edu/class/cs224u/,Natural Language Understanding,CS224U,"http://nlp.stanford.edu/~wcmac/,http://www.stanford.edu/~cgpotts/"
+https://ai.stanford.edu,Conversational Virtual Assistants with Deep Learning,CS224V,
+http://web.stanford.edu/class/cs224w/,Machine Learning with Graphs,CS224W,http://cs.stanford.edu/people/jure/
+http://web.stanford.edu/class/cs225a/,Experimental Robotics,CS225A,http://cs.stanford.edu/groups/manips/
+https://ermongroup.github.io/cs228/,Probabilistic Graphical Models,CS228,https://cs.stanford.edu/~ermon/
+http://www.stanford.edu/class/cs229/,Machine Learning,CS229,"https://cs.stanford.edu/people/rondror/,http://www.robotics.stanford.edu/~ang/contact.html,https://ai.stanford.edu/~tengyuma/,https://cs.stanford.edu/people/chrismre/"
+http://cs229.stanford.edu/,Machine Learning,CS229,","
+http://web.stanford.edu/class/cs22a/,Social & Economic Impact of Artificial Intelligence,CS22a,
+http://www.stanford.edu/class/cs230/,Deep Learning,CS230,https://cs.stanford.edu/people/rondror/
+http://www.stanford.edu/class/cs231a/,Computer Vision: From 3D Reconstruction to Recognition,CS231A,https://web.stanford.edu/~bohg/
+http://vision.stanford.edu/teaching/cs231n/,Convolutional Neural Networks for Visual Recognition,CS231N,"http://vision.stanford.edu/people.html,http://cs.stanford.edu/people/karpathy/,http://cs.stanford.edu/people/jcjohns/"
+http://graphics.stanford.edu/courses/cs233-20-spring/,Geometric and Topological Data Analysis,CS233,https://geometry.stanford.edu/member/guibas/
+http://www.stanford.edu/class/cs234/,Reinforcement Learning,CS234,https://cs.stanford.edu/people/ebrun/
+http://cs236.stanford.edu/,Deep Generative Models,CS236,
+https://cs236g.stanford.edu/,Generative Adversarial Networks,CS236G,https://profiles.stanford.edu/sharon-zhou
+http://asl.stanford.edu/aa274/,Principles of Robotic Autonomy,CS237A,http://web.stanford.edu/~pavone/
+http://web.stanford.edu/class/cs237b/,Principles of Robot Autonomy II,CS237B,"https://web.stanford.edu/~bohg/,https://dorsa.fyi/"
+http://web.stanford.edu/class/aa228/,Decision Making Under Uncertainty,CS238,http://web.stanford.edu/~mykel
+https://web.stanford.edu/class/aa229/cgi-bin/wp/,Advanced Topics in Sequential Decision Making,CS239,https://profiles.stanford.edu/intranet/mykel-kochenderfer
+https://ai.stanford.edu,Minds and Machines,CS24,
+https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=cs247a&collapse=,Design for Artificial Intelligence,CS247A,https://profiles.stanford.edu/julie-stanford
+https://ai.stanford.edu,Artificial Intelligence in Healthcare,CS271,
+http://web.stanford.edu/class/cs279/,Computational Biology: Structure and Organization of Biomolecules and Cells,CS279,http://cs.stanford.edu/people/rondror/
+https://exploreintrosems.stanford.edu/frosh/counterfactuals-science-what-ifs,Counterfactuals: The Science of What Ifs,CS31N,https://cs.stanford.edu/people/ebrun/
+https://canvas.stanford.edu/courses/114221,Value of Data and AI,CS320,"https://cs.stanford.edu/~matei/,https://www.james-zou.com/"
+https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&q=CS322,Triangulating Intelligence,CS322,","
+https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=CS+324%3A+Developing+and+Understanding+Massive+Language+Models&collapse=,Developing and Understanding Massive Language Models,CS324,"https://cs.stanford.edu/people/chrismre/,https://cs.stanford.edu/~pliang/"
+https://ermongroup.github.io/cs325b/,Data for Sustainable Development,CS325B,https://cs.stanford.edu/~ermon/
+http://web.stanford.edu/class/cs326/index.html,Topics in Advanced Robotic Manipulation,CS326,https://am.is.tuebingen.mpg.de/person/jbohg
+http://cs.stanford.edu/groups/manips/teaching/cs327a/,Advanced Robotic Manipulation,CS327A,http://cs.stanford.edu/groups/manips/
+https://explorecourses.stanford.edu/search?q=CS329D,Machine Learning Under Distributional Shifts,CS329D,https://profiles.stanford.edu/tatsunori-hashimoto
+https://stanford-cs329s.github.io/,Machine Learning Systems Design,CS329S,
+http://web.stanford.edu/class/cs330/,Deep Multi-Task and Meta Learning,CS330,https://ai.stanford.edu/~cbfinn/
+http://web.stanford.edu/class/cs331b/,Representation Learning in Computer Vision,CS331B,http://cvgl.stanford.edu/silvio/
+https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=CS%20333:%20Safe%20and%20Interactive%20Robotics&academicYear=20172018,Algorithms for Interactive Robotics,CS333,https://dorsa.fyi/
+https://ckllab.stanford.edu/cs-348e-character-animation,"Character Animation: Modeling, Simulation & Control of Human Motion",CS348E,https://ckllab.stanford.edu/c-karen-liu
+http://cs348i.stanford.edu/,Graphics in the Era of AI,CS348I,","
+http://graphics.stanford.edu/courses/cs348n-22-winter/,Neural Models for 3D Geometry,CS348N,https://geometry.stanford.edu/member/guibas/
+http://infolab.stanford.edu/~echang/cs372/cs372-syllabus.html,Artificial Intelligence for Disease Diagnosis and Information Recommendations,CS372,http://infolab.stanford.edu/~echang/
+http://cs422interactive.stanford.edu/,Interactive and Embodied Learning,CS422,https://profiles.stanford.edu/nicholas-haber
+https://ai.stanford.edu,Computer Vision for Educational and Social Science Research,CS432,
+http://cs522.stanford.edu/,Seminar in Artificial Intelligence in Healthcare,CS522,
+https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=CS+523%3A+Research+Seminar+in+Computer+Vision+and+Healthcare&collapse=,Research Seminar in Computer Vision and Healthcare,CS523,https://explorecourses.stanford.edu/instructor/jxgong
+http://graphics.stanford.edu/ba-colloquium/,Robotics and Autonomous Systems Seminar,CS528,","
+https://ai.stanford.edu,Robotics and Autonomous Systems Seminar,CS529,"https://web.stanford.edu/~bohg/,https://web.stanford.edu/~pavone/"
+https://mlsys.stanford.edu/,ML Systems Seminar,CS58,","
