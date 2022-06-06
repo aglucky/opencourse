@@ -1,4 +1,5 @@
-from django.utils import timezone
+from allauth.account.decorators import login_required
+from django.http import HttpResponse
 from django.shortcuts import render
 from django.views import generic
 
@@ -16,12 +17,13 @@ class IndexView(generic.ListView):
         return Course.objects.all()
 
 
-class DetailView(generic.DetailView):
-    model = Course
-    template_name = 'main/detail.html'
+@login_required
+def course_detail(request, courseID):
+    course = Course.objects.get(id=courseID)
+    if course is None:
+        return HttpResponse("Course not found")
+    else:
+        return render(request, 'main/course.html', {'course': course})
 
-    def get_queryset(self):
-        """
-        Excludes any questions that aren't published yet.
-        """
-        return Course.objects.first()
+
+
