@@ -2,7 +2,6 @@ from django.db import models
 from django.utils import timezone
 from django.contrib import admin
 
-
 class Course(models.Model):
     url = models.CharField(max_length=2048)
     description = models.CharField(max_length=5000, default="")
