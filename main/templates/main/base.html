@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-    <title>Django Tailwind</title>
+    <title>Open Learn</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -39,7 +39,7 @@
 				  <li><a>Item 3</a></li>
 				</ul>
 			  </div>
-			  <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+			  <a href = "/" class="btn btn-ghost normal-case text-xl">Open Learn</a>
 			</div>
 			<div class="navbar-center hidden lg:flex">
 			  <ul class="menu menu-horizontal p-0">
@@ -58,12 +58,15 @@
 			  </ul>
 			</div>
 			<div class="navbar-end">
-			  <a class="btn">Get started</a>
+				<form action="/search/" method="get">
+					<input type="text" placeholder="Search" class="input input-bordered input-primary" />
+					<input class="btn btn-primary" type="submit" value="Submit">
+				</form>
 			</div>
 		  </div>
 		{% block content %}
 		{% endblock %}
-	</body>
+
 	<footer class="footer p-10 bg-neutral text-neutral-content">
 		<div>
 		  <span class="footer-title">Services</span> 
@@ -86,4 +89,5 @@
 		  <a class="link link-hover">Cookie policy</a>
 		</div>
 	  </footer>
+	</body>
 </html>

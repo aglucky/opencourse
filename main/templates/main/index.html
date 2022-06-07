@@ -27,25 +27,12 @@
 <div class="flex justify-center">
   <div class="card m-5 flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 ">
     <div class="card-body">
-      <div class="form-control">
-        <label class="label">
-          <span class="label-text">Email</span>
-        </label>
-        <input type="text" placeholder="email" class="input input-bordered" />
-      </div>
-      <div class="form-control">
-        <label class="label">
-          <span class="label-text">Password</span>
-        </label>
-        <input type="text" placeholder="password" class="input input-bordered" />
-        <label class="label">
-          <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
-        </label>
-      </div>
+      <h2 class="card-title justify-center">Get Started</h2>
+
       <div class="form-control mt-6">
-        <button class="btn btn-primary">Login</button>
+        <a class="btn btn-primary" href="/accounts/signup">Signup</a>
         &nbsp;        
-        <a class="btn btn-primary" href="{% provider_login_url 'google' %}">Login With Google</a>
+        <a class="btn btn-primary" href="{% provider_login_url 'google' %}">Login with Google</a>
       </div>
     </div>
   </div>
@@ -58,10 +45,11 @@
   {% for course in latest_course_list %}
   <div class="card w-96 bg-base-100 shadow-xl">
     <div class="card-body">
-      <h2 class="card-title">{{course.name}}</h2>
-      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <h2 class="card-title">{{course.number}}</h2>
+      <p>{{course.name}}</p>
+      <p>{{course.tags.get}}</p>
       <div class="card-actions justify-end">
-        <a class="btn btn-primary">Buy Now</a>
+        <a href = "/course/{{course.id}}" class="btn btn-primary">Enter</a>
       </div>
     </div>
   </div>
