@@ -49,12 +49,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "allauth_ui",
+    'allauth_ui',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
-    "widget_tweaks",
+    'widget_tweaks',
+    "taggit",
 ]
     
 
@@ -165,3 +166,5 @@ SITE_ID = 2
 
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
+
+TAGGIT_CASE_INSENSITIVE = True
