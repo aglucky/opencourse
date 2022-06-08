@@ -1,7 +1,8 @@
 {% load static tailwind_tags %}
+{% load static %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="forest" lang="en">
 	<head>
     <title>Open Learn</title>
 		<meta charset="UTF-8">
@@ -30,14 +31,26 @@
 					Explore
 				  </a>
 				</li>
-				<li><a>Saved</a></li>
+				<li><a>Contribute</a></li>
 			  </ul>
 			</div>
 			<div class="navbar-end">
 				<form action="/main/search/" method="get">
 					<input type="text" placeholder="Search" class="input input-bordered input-primary" />
-					<input class="btn btn-primary" type="submit" value="Submit">
 				</form>
+				<div class="dropdown dropdown-end">
+					
+					<label tabindex="0" class="btn btn-ghost btn-circle avatar">
+					  <div class="w-10 rounded-full">
+						<img src="{% static 'images/default_profile.svg' %}" />
+					  </div>
+					</label>
+					<ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+					  <li><a>Profile</a></li>
+					  <li><a>Settings</a></li>
+					  <li><a>Logout</a></li>
+					</ul>
+				  </div>
 			</div>
 		  </div>
 		{% block content %}

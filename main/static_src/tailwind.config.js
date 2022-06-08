@@ -40,6 +40,7 @@ module.exports = {
          * and make sure the pattern below matches your project structure.
          */
         // '../../**/*.py'
+
     ],
     theme: {
         extend: {},
@@ -54,7 +55,7 @@ module.exports = {
         require('@tailwindcss/typography'),
         require('@tailwindcss/line-clamp'),
         require('@tailwindcss/aspect-ratio'),
-        require("daisyui")
-    ],
+        require("@tailwindcss/typography"), 
+        require("daisyui"),    ],
     
 }
