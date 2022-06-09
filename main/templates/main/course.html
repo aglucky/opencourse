@@ -2,10 +2,20 @@
 
 
 {% block content %}
-<article class="prose text-slate-700">
-  <h1 class="text-primary"> {{course.number}} </h1>
-  <h1 class="text-primary"> {{course.name}} </h1>
-  <h2 class="text-primary"> {{course.college}} </h2>
+<article class="prose text-neutral justify-center">
+  <h1 class="text-accent"> {{course.number}} </h1>
+  <div class="rating rating-lg">
+      {% for i in stars %}
+      <input name="rating-10" class="bg-green-500 mask mask-star-2 " />      
+      {% endfor %}
+  </div>
+  <div class="rating rating-lg rating-half">
+      {% if rem %}
+        <input name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+      {% endif %}
+  </div>
+  <h1 class="text-accent"> <a class="text-accent" href="{{course.}}"> {{course.name}} </a> </h1>
+  <h2 class="text-accent"> {{course.college}} </h2>
   <p> {{course.description}} </p>
 </article>
 {% endblock %}
