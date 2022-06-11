@@ -32,7 +32,10 @@ def course_detail(request, courseID):
     if course is None:
         return HttpResponse("Course not found")
     else:
-        return render(request, 'main/course.html', {'course': course, 'stars': range(course.rating//2), 'rem': course.rating%2 == 1 })
+        return render(request, 'main/course.html', {'course': course, 
+                                                    'stars': range(course.rating//2), 
+                                                    'rem': course.rating%2 == 1 ,
+                                                    'reviews': course.review_set.all()})
 
 
 

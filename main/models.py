@@ -33,4 +33,4 @@ class Review(models.Model):
     created_date = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
-        return f'Comment by {self.author.name}'
+        return f'Comment by {self.author.username}'

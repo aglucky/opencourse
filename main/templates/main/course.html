@@ -17,5 +17,18 @@
   <h1 class="text-accent"> <a class="text-accent" href="{{course.}}"> {{course.name}} </a> </h1>
   <h2 class="text-accent"> {{course.college}} </h2>
   <p> {{course.description}} </p>
+
+  <h1 class="text-accent"> Reviews </h1>
 </article>
+
+  <div class="flex flex-row flex-wrap m-5 space-x-5">
+  {% for review in reviews%}
+  <div class="card-compact w-96 bg-indigo-500 shadow-xl">
+    <div class="card-body">
+      <h2 class="card-title">By {{review.author.username}} on {{review.created_date}}</h2>
+      <p class="text-neutral">{{review.text}}</p>
+    </div>
+  </div>
+{%endfor%}
+</div>
 {% endblock %}
